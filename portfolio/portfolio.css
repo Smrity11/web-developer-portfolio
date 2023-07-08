@@ -1,15 +1,15 @@
 *{
-    font-family: 'lato' ,sans-serif;
     font-family: 'Open Sans', sans-serif;
-}
+} 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-title{
     color: #181818;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 800;
     font-family: 'lato' ,sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -23,7 +23,7 @@ nav ul{
 }
 nav  li{
     list-style: none;
-    margin-right: 50px;
+    margin-left: 100px;
     color:  #474747;
    
 }
@@ -37,4 +37,177 @@ nav  li a{
     border-radius: 5px;
     border: none;
     font-weight: 600;
+}
+.header{
+    background-color: #fff8f3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+}
+.banner-1{
+    width: 500px;
+  
+}
+.banner img{
+    width: 480px;
+}
+.banner-1 >p{
+    line-height: 20px;
+    margin-top: 0px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.hi{
+    font-size: 40px;
+    font-weight: 500;
+    color:  #474747;
+    margin-bottom: 0;
+}
+.title{
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.about{
+
+   padding: 130px;
+    background: #fae8dc;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    align-items: center;
+    justify-content: justify;
+}
+.sectiontitle{
+    color: #181818;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.about>p{
+    color: #3e3e3e;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px;
+}
+.about-info{
+    line-height: 10px;
+}
+.info-title{
+    color: #474747;
+    font-size: 15px;
+    font-weight: normal;
+}
+.info-description{
+    color: #333333;
+    font-weight: 600;
+}
+#for-padding{
+    padding: 0px 150px;
+}
+.section-description{
+    color: #3e3e3e;
+}
+/* skill container */
+.skils-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+  margin: 0 auto;
+ margin-top: 50px;
+}
+.skill{
+    margin-left:30px ;
+    width: 260px;
+  padding:25px 25px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+skill-description{
+    font-size: 10px;
+}
+#margintop{
+    margin-top: 100px;
+}
+.full-resume{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+.resume-list{
+    width: 400px;
+    padding:20px 55px;
+}
+.resume-title{
+    margin-left: 50px;
+    font-size: 25px;
+    color: #3e3e3e;
+}
+.resume-heading{
+    color: #404040;
+    font-size: 22px;
+}
+.samll-resume{
+    color: #1e1e1e;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+.resume-description{
+    color: #565656;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+#small{
+margin-top: -22px;
+}
+.line{
+    margin-top: 200px;
+    background-color: #333333;
+    width: 1px;
+    height: 580px;
+}
+.buttoncv{
+    margin-left: 478px;
+}
+.full-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.footer1{
+    width: 500px;
+}
+.footer1,.footer2>p{
+    font-size: 18px;
+}
+.footer2>p{
+    margin-top: 50px;
+}
+.footer2{
+    width: 500px;
+}
+#fottername{
+    margin-left: -290px;
+    font-size: 35px;
+ 
+}
+#submitbutton{
+    margin-left: 878px;
+    padding: 15px 60px;
+    font-size: large;
 }
